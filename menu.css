@@ -1,0 +1,98 @@
+/* CSS file for menu.html */
+
+body {
+    margin: 0;
+}
+.firstHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    background-color: rgb(255, 204, 0);
+}
+.marginedH1 {
+    font-size: 48px;
+    margin-left: 68px;
+}
+.navItemBar {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    margin-right: 45px;
+    padding: 0;
+}
+li { 
+    margin: 0;
+    padding: 0 24px;
+}
+a {
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: orangered;
+}
+.secondHeader {
+    border-bottom: 1px solid black;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.menuH2 {
+    color: rgb(255, 204, 0);
+    font-size: 36px;
+}
+.menuItems {
+    display: flex;
+    justify-content: space-around;
+}
+.foodItemsColumn1 {
+    margin: 0;
+    padding: 0;
+}
+.foodItemsColumn2 {
+    margin: 0;
+    margin-right: 110px;
+    padding: 0;
+}
+.foodItemTitle {
+    display: flex;
+    justify-content: space-between;
+    width: 200%;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 204, 0);
+}
+footer p {
+    font-size: 20px;
+    padding: 0;
+    padding-left: 68px;
+    margin: 0;
+}
+.socialMediaIcons {
+    display: flex;
+    list-style-type: none;  
+    padding-right: 37px;
+    margin: 0;
+}
+.socialMediaIcons li {
+    width: 50px;
+    padding-top: 10px;
+}

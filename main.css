@@ -1,0 +1,155 @@
+/* CSS for index.html, that is: Website 3 */
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 204, 0);
+}
+.marginedH1 {
+    font-size: 48px;
+    margin-left: 68px;
+}
+.navItemBar {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    margin-right: 45px;
+    padding: 0;
+}
+li { 
+    margin: 0;
+    padding: 0 24px;
+}
+a {
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: orangered;
+}
+main {
+    background: url(./img/wacArnolds.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0;
+    height: 350px;
+}
+h2 {
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+main h1 {
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 48px;
+}
+h3 {
+    color: rgba(255, 0, 0, 1);
+    font-size: 24px;
+}
+.button {
+    border: 1px solid black;
+    padding: 17px 70px;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .87);
+}
+.bigFoot {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 46px;
+}
+.leftFoot {
+    display: flex;
+}
+article {
+    padding: 20px;
+    padding-top: 0;
+    width: 300px;
+    padding-bottom: 0;
+}
+article h4 {
+    font-size: 20px;
+    padding-top: 0;
+    margin-top: 10px;
+}
+article li {
+    padding-left: 0;
+    padding-bottom: 15px;    
+}
+article ul {
+    margin-left: -20px;
+    padding-left: 35px;    
+}
+.rightFoot {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    padding-right: 37px;
+}
+.rightFoot h4 {
+    font-size: 20px;
+    padding-top: 0;
+    margin-top: 10px;
+}
+.rightFoot ul {
+    display: flex;
+    justify-content: flex-start;
+    height: 100px;
+    width: 375px;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+.rightFoot li {
+    padding-left: 0;
+}
+.rightFoot img {
+    height: 70px;
+    width: 100px;
+    padding-left: 0;
+}
+.littleFoot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    border-top: 1px solid black;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 204, 0);
+}
+.littleFoot p {
+    font-size: 20px;
+    padding: 0;
+    padding-left: 68px;
+    margin: 0;
+}
+.socialMediaIcons {
+    display: flex;
+    list-style-type: none;  
+    padding-right: 37px;
+    margin: 0;
+}
+.socialMediaIcons li {
+    width: 50px;
+    padding-top: 10px;
+}
+
